@@ -1,0 +1,15 @@
+Alquila360 1.3 Seguridad Beta
+
+Cambios:
+- Bloqueo de navegación WebView fuera de los recursos locales de la aplicación.
+- Acceso desde archivos locales a otros archivos y a URLs externas deshabilitado.
+- Contenido mixto prohibido y depuración WebView deshabilitada.
+- Tamaño máximo de exportación: 10 MB; importación limitada a 10 MB (ya existía).
+- Validación adicional de la estructura de las copias antes de sustituir datos.
+- Se conserva la clave localStorage y el applicationId de 1.2 para intentar mantener los datos en actualizaciones compatibles.
+
+IMPORTANTE:
+- No hay cifrado de copias de seguridad todavía. Los JSON exportados contienen datos legibles: guárdalos en lugar seguro.
+- No se ha compilado ni probado esta versión en un dispositivo.
+- NO desinstales la 1.2 sin copia de seguridad comprobada.
+- La firma de depuración de GitHub puede cambiar entre compilaciones, impidiendo actualizar sin reinstalar.
