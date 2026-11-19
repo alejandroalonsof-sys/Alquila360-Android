@@ -1,0 +1,6 @@
+ALQUILA360 1.7 - ESTRUCTURA CORREGIDA
+
+Subir la carpeta Alquila360-1.7-Android-proyecto COMPLETA al nivel principal del repositorio.
+Comprobar que dentro aparecen app/build.gradle, app/src/main, settings.gradle y build.gradle.
+En .github/workflows/android.yml: working-directory: Alquila360-1.7-Android-proyecto; path: Alquila360-1.7-Android-proyecto/app/build/outputs/apk/debug/*.apk
+No instalar esta beta sobre una version con datos reales.

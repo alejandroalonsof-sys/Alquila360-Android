@@ -1,3 +1,6 @@
-plugins {
-    id 'com.android.application' version '8.7.3' apply false
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.alquila360.app'
+    compileSdk 35
+    defaultConfig { applicationId 'com.alquila360.app'; minSdk 26; targetSdk 35; versionCode 8; versionName '1.7-seguridad-beta' }
 }
