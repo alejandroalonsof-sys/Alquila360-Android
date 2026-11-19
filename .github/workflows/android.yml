@@ -29,12 +29,12 @@ jobs:
           gradle-version: '8.9'
 
       - name: Compilar APK
-        working-directory: Alquila360-1.7-controles-seguridad-beta/Alquila360-1.2-Android-proyecto
+        working-directory: .
         run: gradle assembleDebug --stacktrace
 
       - name: Guardar APK
         uses: actions/upload-artifact@v4
         with:
           name: Alquila360-1.7-APK
-          path: Alquila360-1.7-controles-seguridad-beta/Alquila360-1.2-Android-proyecto/app/build/outputs/apk/debug/*.apk
+          path: app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
